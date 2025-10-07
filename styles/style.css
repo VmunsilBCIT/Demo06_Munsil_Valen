@@ -1,1 +1,38 @@
+/* New Color Palette:
+* Lightest (Text):         #f5853F      (text, contrast with dark)
+* Dark-Black (Primary):    #130303      
+* Burnt-Umber (Secondary): #FC3626      (canvas background)
+* Black-Bean (Accent):     #2D080A
+*/
 
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+}
+
+.bg-info {
+  background-color: #fc3626 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #130303; /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+  color: #ffffff; /* Lightest shade for text on info button for contrast */
+  background-color: #fc3626; /* Light green for button background */
+  border-color: #130303; /* Dark green for button border */
+}
+
+.btn-primary {
+  color: #ffffff; /* Lightest shade for text */
+  font-size: 150%;
+  background-color: #130303; /* Dark green for primary button background */
+  border-color: #2d080a; /* Reddish-brown for border to use as accent */
+  border-width: thick;
+}
+
+body {
+  background-color: #2d080a; /* Lightest shade for body background to follow the 60% rule */
+}
